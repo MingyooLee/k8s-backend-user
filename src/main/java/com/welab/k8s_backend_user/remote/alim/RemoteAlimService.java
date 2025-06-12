@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
         path = "/backend/alim/v1")
 public interface RemoteAlimService {
     @GetMapping(value = "/hello")
-    public ApiResponseDto<String> hello();
+    ApiResponseDto<String> hello();
 }
 
